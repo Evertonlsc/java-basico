@@ -1,18 +1,25 @@
-## Getting Started
+# Sintaxe - Desafio
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+1.	Crie o projeto ContaBanco que receberá dados via terminal contendo as características de conta em banco conforme atributos abaixo:
+2.	Dentro do projeto, crie a classe ContaTerminal.java para realizar toda a codificação do nosso programa.
 
-## Folder Structure
+## Conta
 
-The workspace contains two folders by default, where:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+| Atributo   | Tipo       | Exemplo                           |
+| :---------- | :--------- | :---------------------------------- |
+| `Numero` | `Inteiro` | 1021        |
+| `Agencia` | `Texto` | 067-8        |
+| `Nome do Cliente` | `Texto` | Mario de Andrade        |
+| `Saldo` | `Decimal` | 237,48        |
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Estrutura
 
-## Dependency Management
+2. Permita que os dados sejam inseridos via terminal sendo que o usuário receberá a mensagem de qual informação será solicitada, exemplo:
+· Programa: "Por favor, digite o número da Agência !"
+· Usuário: 1021 (depois ENTER para o próximo campo)
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+3. Depois de todas as informações terem sido inseridas, o sistema deverá exibir a seguinte mensagem:
+"Olá [Nome Cliente], obrigado por criar uma conta em nosso banco, sua agência é [Agencia], conta [Numero] e seu saldo [Saldo] já está disponível para saque".
+Os campos em [ ] devem ser alterados pelas informações que forem inseridas pelos usuários
